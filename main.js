@@ -1,2 +1,6 @@
 const main = document.getElementById('of-frame-main');
-main.innerText = 'yo yo yo';
+if(!fin) // todo: handle
+
+const titleBar = document.createElement('div');
+titleBar.className = 'title-bar';
+
