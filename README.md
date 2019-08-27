@@ -1,1 +1,3 @@
-"# default-frame" 
+---
+permalink: /index.html
+---
