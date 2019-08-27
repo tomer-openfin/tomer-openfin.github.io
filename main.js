@@ -1,7 +1,5 @@
 (() => {
-    const main = document.getElementById('of-frame-main');
-
-    if(!fin) {
+    if(!window.hasOwnProperty('fin')) {
         fin = {
             close: () => console.log('closed'),
             minimize: () => console.log('minimized'),

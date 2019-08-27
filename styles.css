@@ -36,6 +36,14 @@ html {
     padding: 5px;
 }
 
+.button:hover {
+    background: rgb(56, 56, 189)
+}
+
+#close-button:hover {
+    background: #B33A3A
+}
+
 .button-image {
     height: 20px;
     height: 20px;
