@@ -4,8 +4,8 @@
     }
     
     const win = fin.Window.getCurrentSync();
-    const onClose = win.close.bind(this);
-    const onMinimize = win.minimize.bind(this);
+    const onClose = win.close.bind(fin);
+    const onMinimize = win.minimize.bind(fin);
     const onMaximize = async () => win.getState().then(state => state === 'maximized'? win.restore() : win.maximize());
     
     const closeButton = document.getElementById('close-button');
