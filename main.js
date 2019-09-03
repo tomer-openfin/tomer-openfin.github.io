@@ -1,9 +1,9 @@
-(() => {
+(async () => {
     if(!window.hasOwnProperty('fin')) {
         console.error('this is supposed to run in OpenFin ecosystem, not in a browser.');
     }
     
-    const win = fin.Window.getCurrentSync();
+    const win = await fin.Window.getCurrent();
     const onClose = win.close.bind(fin);
     const onMinimize = win.minimize.bind(fin);
     const onMaximize = async () => win.getState().then(state => state === 'maximized'? win.restore() : win.maximize());
