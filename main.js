@@ -1,12 +1,6 @@
 (() => {
     if(!window.hasOwnProperty('fin')) {
-        fin = {
-            close: () => console.log('closed'),
-            minimize: () => console.log('minimized'),
-            getState: () => 'normal',
-            restore: () => console.log('restored'),
-            maximize: () => console.log('maximized'),
-        };
+        console.error('this is supposed to run in OpenFin ecosystem, not in a browser.');
     }
     
     const win = fin.Window.getCurrentSync();
