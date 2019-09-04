@@ -3,6 +3,7 @@ body {
     margin: 0px;
     min-height: 100%;
     width: 100%;
+    -webkit-app-region: drag;
 }
 
 html {
@@ -27,6 +28,7 @@ html {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-items: center; 
+    -webkit-app-region: no-drag;
 }
 
 .button {
