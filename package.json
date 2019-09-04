@@ -1,0 +1,24 @@
+{
+  "name": "default-frame",
+  "version": "1.0.0",
+  "description": "---\r permalink: /index.html\r ---",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomer-openfin/default-frame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomer-openfin/default-frame/issues"
+  },
+  "homepage": "https://github.com/tomer-openfin/default-frame#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "path": "^0.12.7"
+  }
+}
