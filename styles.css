@@ -4,6 +4,7 @@ body {
     width: 100%;
     -webkit-app-region: drag;
     -webkit-user-select: none;
+    margin: 0;
 }
 
 html {
@@ -28,10 +29,8 @@ html {
 }
 
 #buttons-wrapper {
-    display: inline-block;
     position: relative;
     float: right;
-    -webkit-app-region: no-drag;
 }
 
 .button {
@@ -39,6 +38,7 @@ html {
     width: 20px;
     display: inline-block; 
     padding: 5px 10px;
+    -webkit-app-region: no-drag;
 }
 
 .button:hover {
