@@ -6,7 +6,7 @@
     
     const bv = fin.BrowserView.wrapSync(fin.BrowserView.me); 
     const win = await bv.getInfo().then(({target}) => fin.Window.wrap(target));
-    
+
     const onClose = () => win.close();
     const onMinimize = () => win.minimize();
     const onMaximize = async () => win.getState().then(state => state === 'maximized'? win.restore() : win.maximize());
