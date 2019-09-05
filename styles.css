@@ -13,15 +13,18 @@ html {
     -webkit-user-select: none;
  }
 
+#of-frame-main {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+}
+
 #title-bar {
     background: #4E4DFF;
     width: 100%;
     height: 30px;
-}
-
-#of-frame-main {
-    height: 100%;
-    width: 100%;
 }
 
 #buttons-wrapper {
